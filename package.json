@@ -4,8 +4,7 @@
   "description": "",
   "main": "telas/lista_cliente.html",
   "scripts": {
-    "dev": "browser-sync start --server ---file . --port 5000 --startPath telas/lista_cliente.html",
-    "build": "build --output public"
+    "dev": "browser-sync start --server ---file . --port 5000 --startPath telas/lista_cliente.html"
   },
   "author": "",
   "license": "ISC",
