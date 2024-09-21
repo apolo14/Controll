@@ -2,10 +2,10 @@
 @import url(_variaveis.css);
 
 body {
-	background-color: var(--cor-secundaria);
-	color: var(--cor-contraste-escuro);
-	font-family: var(--fonte-familia-corpo);
-	overflow-x: hidden;
+	background-color: var(--cor-secundaria) !important;
+	color: var(--cor-contraste-escuro) !important;
+	font-family: var(--fonte-familia-corpo) !important;
+	overflow-x: hidden; 
 }
 
 .container { 

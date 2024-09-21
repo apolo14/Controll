@@ -9,3 +9,38 @@
 		padding-right: calc((100vw - 900px)/2);
 	}
 }
+
+.card_teste .col{
+	box-sizing: border-box;
+	width: 300px;
+}
+
+
+.card-img-top {
+	padding: 50px;
+	box-shadow: var(--sombra);
+    border-radius: 20%;
+    position: relative;
+}
+
+.card_teste .card {
+	border-radius: 20px;
+	box-shadow: var(--sombra); 
+}
+.card_teste .card-item-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+
+.card_teste .btn-primary{
+    border-radius: 30px;
+    height: 50px;
+	width: 120px;
+}
+.card_teste .btn-primary:hover{
+    background-color: black;
+    border: none;
+}
+.card_teste h3,h5{
+    color: rgb(0, 91, 228);
+}
