@@ -1,5 +1,6 @@
 import { clienteService } from "../service/cliente-service.js";
 import { moedaService } from "../service/moeda-service.js"
+import { scrapperService } from "../service/scrapper.js";
 
 
 const criarNovaLinha = (nome, email, idDoItem) => {
@@ -77,3 +78,10 @@ moedaService.listaMoedas().then(data => {
         card.appendChild(criarLinhaCard(elemento.nome, elemento.idMoeda, elemento.img, elemento.qtd, elemento.precoCompra, elemento.dataDaCompra))
     })
 })
+
+
+// ----------------------------------------------------------------------//
+// ------------- inicio Scrapping itens site ----------------------------//
+//-----------------------------------------------------------------------//
+
+scrapperService.processarItens
