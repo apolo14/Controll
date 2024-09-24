@@ -84,4 +84,4 @@ moedaService.listaMoedas().then(data => {
 // ------------- inicio Scrapping itens site ----------------------------//
 //-----------------------------------------------------------------------//
 
-scrapperService.processarItens
+scrapperService.processarItens()
