@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "admin",
   "version": "1.0.0",
   "description": "",
@@ -9,8 +10,11 @@
   },
   "author": "",
   "license": "ISC",
+=======
+>>>>>>> fde178912bdfc372cf86b8cfe4cce40a24b5844a
   "dependencies": {
-    "browser-sync": "^3.0.2",
-    "json-server": "^0.16.2"
+    "puppeteer": "^23.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }

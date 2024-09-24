@@ -14,6 +14,6 @@ formulario.addEventListener('submit', (evento) => {
 
    clienteService.criarItem(nomeDoItem, idDoItem, refinamento, precoCompra, qtd, precoVenda)
     .then(() => {
-        window.location.href = '../telas/cadastro_concluido.html'
+        window.location.href = './cadastro_concluido.html'
     })
 })

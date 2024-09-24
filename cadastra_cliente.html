@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doguito Petshop | Cadastro de cliente</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/css/base/base.css">
+    <link rel="stylesheet" href="./assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="./assets/css/cadastra_cliente.css">
+    <link rel="stylesheet" href="./assets/css/componentes/inputs.css">
+    <link rel="stylesheet" href="./assets/css/componentes/botao.css">
+</head>
+<body>
+    <header class="cabecalho container">
+        <img src="./assets/img/doguitoadm.svg" alt="Logo Doguito" class="cabecalho__logo">
+        <nav>
+            <ul class="cabecalho__lista-navegacao">
+                <li class="cabecalho__link"><a href="#">Dashboard</a></li>
+                <li class="cabecalho__link"><a href="#">Produtos</a></li>
+                <li class="cabecalho__link"><a href="./index.html">Clientes </a></li>
+                <li class="cabecalho__link"><a href="#">Pets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container flex flex--centro flex--coluna">
+        <section class="cartao cadastro">
+            <h1 class="cartao__titulo">Novo Cliente</h1>
+            <form class="flex flex--coluna" data-form>
+                <div class="input-container">
+                    <input name="nomeDoItem" id="nomeDoItem" class="input" type="text" placeholder="Nome" required data-nomeDoItem>
+                    <label class="input-label" for="nomeDoItem">Nome do item</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="idDoItem" id="idDoItem" class="input" type="text" placeholder="IdDoItem" required data-idDoItem>
+                    <label class="input-label" for="idDoItem" >id do item</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="refinamento" id="refinamento" class="input" type="text" placeholder="refinamento" required data-refinamento>
+                    <label class="input-label" for="refinamento">Refinamento</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="precoCompra" id="precoCompra" class="input" type="text" placeholder="precoCompra" required data-precoCompra>
+                    <label class="input-label" for="precoCompra">Preco da compra</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="qtd" id="qtd" class="input" type="text" placeholder="qtd" required data-qtd>
+                    <label class="input-label" for="qtd">Quantidade</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="precoVenda" id="precoVenda" class="input" type="text" placeholder="precoVenda" required data-precoVenda>
+                    <label class="input-label" for="precoVenda">Preço da venda</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <button type="submit"class="botao">
+                Cadastrar
+            </button>
+            </form>
+        </section>
+    </main>
+</body>
+
+<script type="module" src="./controller/cadastraItens-Controller.js"></script>
+</html>
