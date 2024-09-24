@@ -1,20 +1,12 @@
 {
-<<<<<<< HEAD
   "name": "admin",
   "version": "1.0.0",
   "description": "",
-  "main": "telas/lista_cliente.html",
+  "main": "telas/index.html",
   "scripts": {
-    "dev": "browser-sync start --server ---file . --port 5000 --startPath telas/lista_cliente.html",
+    "dev": "browser-sync start --server ---file . --port 5000 --startPath telas/index.html",
     "build": "build --output public"
   },
   "author": "",
-  "license": "ISC",
-=======
->>>>>>> fde178912bdfc372cf86b8cfe4cce40a24b5844a
-  "dependencies": {
-    "puppeteer": "^23.4.0",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
-  }
+  "license": "ISC"
 }
